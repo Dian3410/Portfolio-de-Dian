@@ -166,9 +166,8 @@ h2 {
   transform: scale(1.25);
 }
 
-/* =========================
-   À PROPOS – STYLE SPÉCIAL
-========================= */
+/* 
+   À PROPOS – STYLE SPÉCIAL */
 .about-container {
   max-width: 900px;
   margin: auto;
@@ -261,9 +260,8 @@ h2 {
   }
 }
 
-/* =========================
-   MODE CLAIR
-========================= */
+/*
+   MODE CLAIR */
 body.light {
   background: #f8fafc;
   color: #020617;
