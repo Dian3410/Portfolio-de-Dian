@@ -1,6 +1,5 @@
-/******************************
- * 🌐 FOND RÉSEAU ANIMÉ
- ******************************/
+/
+*  FOND ANIMÉ /
 const canvas = document.getElementById("network");
 const ctx = canvas.getContext("2d");
 
@@ -59,9 +58,9 @@ function animateNetwork() {
 }
 animateNetwork();
 
-/******************************
- * 🔵 TEXTE DYNAMIQUE
- ******************************/
+/
+ *  TEXTE DYNAMIQUE (trop fier)/
+   
 const texts = [
   "Étudiant en BTS SIO",
   "Cybersécurité",
@@ -76,9 +75,9 @@ setInterval(() => {
   i = (i + 1) % texts.length;
 }, 3000);
 
-/******************************
- * 🌍 LANGUE
- ******************************/
+/
+ *  LANGUE/
+   
 document.getElementById("langSelect").addEventListener("change", e => {
   document.querySelectorAll("[data-fr]").forEach(el => {
     el.textContent =
@@ -86,16 +85,16 @@ document.getElementById("langSelect").addEventListener("change", e => {
   });
 });
 
-/******************************
- * 🌙 THEME
- ******************************/
+/
+ *  THEME/
+   
 document.getElementById("themeToggle").addEventListener("click", () => {
   document.body.classList.toggle("light");
 });
 
-/******************************
- * 🧠 MORPION IA
- ******************************/
+/
+ * 🧠 MORPION IA/
+   
 const cells = document.querySelectorAll("#morpion .cell");
 let board = Array(9).fill(null);
 const HUMAN = "X";
